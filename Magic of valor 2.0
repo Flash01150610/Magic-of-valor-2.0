@@ -1,4 +1,4 @@
-```html
+html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -117,7 +117,7 @@
                     break;
             }
 
-            // Prevent player from going out of bounds
+            // Prevent the player from going out of bounds
             if (player.x < 0) player.x = 0;
             if (player.x + player.width > canvas.width) player.x = canvas.width - player.width;
         }
@@ -133,4 +133,3 @@
     </script>
 </body>
 </html>
-```
